@@ -1,5 +1,4 @@
 #User guide to refolding functions
-
 ##Background
 
 These functions were built to analyse data generated in _in vivo_ luciferase refolding experiments.
@@ -29,7 +28,7 @@ __Column3: "Reference" containing the non-heat-shocked control measurements__
 
 __The rest of the columns contain the different time points of recovery, each column representing one time point. As many time point can be included as needed. The name of the column should be a number followed by the unit of measurement, without any characters in between (e.g. "2hours"). All your columns should indicate the same time unit (e.g. Do not give the 1st column in minutes and the rest in hours).__
 
-Please see the uploases input file that serves as an example.
+Please see the uploaded input file that serves as an example.
 
 Input files should then be saved in any wished format for R to read (e.g. txt, csv, tsv).
 The input file can be read, e.g. by setting the working directory to the directory where the input file can be found, then reading the file with the function `read.table()` as described [here] (http://www.r-tutor.com/r-introduction/data-frame/data-import).
