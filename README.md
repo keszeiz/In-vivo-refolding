@@ -31,7 +31,7 @@ __The rest of the columns contain the different time points of recovery, each co
 Please see the uploaded input file that serves as an example.
 
 Input files should then be saved in any wished format for R to read (e.g. txt, csv, tsv).
-The input file can be read, e.g. by setting the working directory to the directory where the input file can be found, then reading the file with the function `read.table()` as described [here] (http://www.r-tutor.com/r-introduction/data-frame/data-import).
+The input file can be read, e.g. by setting the working directory to the directory where the input file can be found, then reading the file with the function `read.table()` as described [here](http://www.r-tutor.com/r-introduction/data-frame/data-import).
 
 Example on how to read a file:
 `getwd() #to ask R what is the current working directory (wd). The output can be used as a template to input wd.`
@@ -43,4 +43,4 @@ This dataframe mydata can be processed with the function `reshape_dataframe()`. 
 `ggsave(filename = "myfigure.pdf", plot = Figure1, scale=0.5, useDingbats=FALSE)`
 where useDingbats=FALSE is required correct opening in Adobe Illustrator when the wished output is pdf.
 
-Each of the figures can be further modified as required according to the [ggplot] (https://uc-r.github.io/ggplot_intro) syntax. 
+Each of the figures can be further modified as required according to the [ggplot](https://uc-r.github.io/ggplot_intro) syntax. 
