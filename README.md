@@ -18,15 +18,15 @@ Your data can containg as many multiplicates, refolding time points, cell types/
 Your data structure should be the following: 
 Columns containing background information: 
 
-__- Column1: "Date" to identify independent experiments. The content of this column does not have to be actual dates, it can be anything that uniquely identifies independent experiments.__
+- Column1: "Date" to identify independent experiments. The content of this column does not have to be actual dates, it can be anything that uniquely identifies independent experiments.
 
-__- Column2: "Celltype" to identify the cell types, or different conditions, such as the addition of drugs.__
+- Column2: "Celltype" to identify the cell types, or different conditions, such as the addition of drugs.
 
-__Then columns containing measurments:__
+Then columns containing measurments:
 
-__- Column3: "Reference" containing the non-heat-shocked control measurements__
+- Column3: "Reference" containing the non-heat-shocked control measurements
 
-__- The rest of the columns contain the different time points of recovery, each column representing one time point. As many time point can be included as needed. The name of the column should be a number followed by the unit of measurement, without any characters in between (e.g. "2hours"). All your columns should indicate the same time unit (e.g. Do not give the 1st column in minutes and the rest in hours).__
+- The rest of the columns contain the different time points of recovery, each column representing one time point. As many time point can be included as needed. The name of the column should be a number followed by the unit of measurement, without any characters in between (e.g. "2hours"). All your columns should indicate the same time unit (e.g. Do not give the 1st column in minutes and the rest in hours).
 
 Please see the uploaded input file that serves as an example.
 
