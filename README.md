@@ -15,7 +15,7 @@ The first colunm is there to indicate which experiment that particular line corr
 
 Your data can containg as many multiplicates, refolding time points, cell types/conditions or independent experiments, as you wish.
 
-__Your data structure should be the following: __
+__Your data structure should be the following:__
 
 Columns containing background information: 
 
