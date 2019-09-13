@@ -1,11 +1,11 @@
-#User guide to refolding functions
-##Background
+User guide to refolding functions
+Background
 
 These functions were built to analyse data generated in _in vivo_ luciferase refolding experiments.
 Briefly, during these experiments, luciferase is expressed in cells. Cells are subjected to a heat-shock which inactivates luciferase, then allowed to recover on 37°C for different periods of time (e.g. for 1, 2 and 3 hours). During this time, luciferase can refold, something that can be enhanced by molecular chaperones.
 Cells are then lysed, and luciferase activity of differencially treated cells are measured.
 
- ##How to prepare your input file
+ How to prepare your input file
 
 Copy+paste the data of your independent experiments and different cell types/conditions in one file. 
 From one experiment, the amount of data lines generated depends on the amount of different cells lines and conditions, and the number of multiplicates used.
