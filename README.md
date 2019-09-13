@@ -47,7 +47,7 @@ From a csv input file, where values are separated with a comma, this code genera
 
  ## How to use these functions and save figures
  
-This dataframe mydata can be processed with the function `reshape_dataframe()`. The output file of this function will be the input file of all other functions. The output files of all other functions are figures, that can be saved to the working directory e.g. with the following code line:
+This dataframe "mydata" can be processed with the function `reshape_dataframe()`. The output file of this function will be the input file of all other functions. The output files of all other functions are figures, that can be saved to the working directory e.g. with the following code line:
 `ggsave(filename = "myfigure.pdf", plot = Figure1, scale=0.5, useDingbats=FALSE)`
 where useDingbats=FALSE is required correct opening in Adobe Illustrator when the wished output is pdf.
 
