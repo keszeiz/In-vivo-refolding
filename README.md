@@ -46,8 +46,9 @@ Then the file can be read:
 From a csv input file, where values are separated with a comma, this code generates a dataframe called mydata.
 
  ## How to use these functions and save figures
- 
-This dataframe "mydata" can be processed with the function `reshape_dataframe()`. The output file of this function will be the input file of all other functions. The output files of all other functions are figures, that can be saved to the working directory e.g. with the following code line:
+
+To use the functions, one has to first install the packages `reshape2`, `ggplot2` and `ggpubr` using the function `install.packages()`.
+The imported dataframe "mydata" can be processed with the function `reshape_dataframe()`. The output file of this function will be the input file of all other functions. The output files of all other functions are figures, that can be saved to the working directory e.g. with the following code line:
 `ggsave(filename = "myfigure.pdf", plot = Figure1, scale=0.5, useDingbats=FALSE)`
 where useDingbats=FALSE is required correct opening in Adobe Illustrator when the wished output is pdf.
 
