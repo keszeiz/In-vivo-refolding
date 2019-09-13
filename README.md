@@ -38,8 +38,11 @@ The input file can be read, e.g. by setting the working directory to the directo
 Example on how to read a file:
 `getwd()` to ask R what is the current working directory (wd). The output can be used as a template to input wd:
 `setwd("H:/inputfiles")`
+
 Then the file can be read:
+
 `mydata <- read.table("HeLa_minputfile.csv", sep=",", header=TRUE)` 
+
 From a csv input file, where values are separated with a comma, this code generates a dataframe called mydata.
 
  ## How to use these functions and save figures
