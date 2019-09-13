@@ -15,7 +15,8 @@ The first colunm is there to indicate which experiment that particular line corr
 
 Your data can containg as many multiplicates, refolding time points, cell types/conditions or independent experiments, as you wish.
 
-Your data structure should be the following: 
+__Your data structure should be the following: __
+
 Columns containing background information: 
 
 - Column1: "Date" to identify independent experiments. The content of this column does not have to be actual dates, it can be anything that uniquely identifies independent experiments.
